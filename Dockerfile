@@ -24,6 +24,7 @@ RUN apt-get install -y curl wget git make sudo \
     # install latest elixir package
     && apt-get install -y libstdc++6 \
     && apt-get install -y elixir erlang-dev erlang-dialyzer erlang-parsetools \
+    && apt-get install -y erlang-tools \
     # clean up after ourselves
     && apt-get clean
 
