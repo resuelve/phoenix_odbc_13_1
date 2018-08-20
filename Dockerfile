@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:16.04
 
 # Elixir requires UTF-8
 RUN apt-get update && apt-get upgrade -y && apt-get install locales && locale-gen en_US.UTF-8
